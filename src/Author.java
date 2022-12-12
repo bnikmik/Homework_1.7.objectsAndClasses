@@ -1,4 +1,4 @@
-public class Author {
+public final class Author {
     private final String firstName;
     private final String lastName;
 
@@ -11,7 +11,7 @@ public class Author {
         return firstName;
     }
 
-    protected String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 }
